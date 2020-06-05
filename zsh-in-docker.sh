@@ -66,9 +66,6 @@ install_dependencies() {
         tlinux)
             $Sudo yum update
             $Sudo yum install -y git curl
-            $Sudo curl http://mirror.ghettoforge.org/distributions/gf/el/7/plus/x86_64/zsh-5.1-1.gf.el7.x86_64.rpm > zsh-5.1-1.gf.el7.x86_64.rpm
-            $Sudo rpm -i zsh-5.1-1.gf.el7.x86_64.rpm
-            $Sudo rm zsh-5.1-1.gf.el7.x86_64.rpm
         ;;
         *)
             $Sudo apt-get update
